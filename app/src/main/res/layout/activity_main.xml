@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:rowCount="5"
+        android:columnCount="2">
+
+        <Button
+            android:onClick="Sound_Alpukat"
+            android:id="@+id/button1"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Alpukat"/>
+
+        <Button
+            android:onClick="Sound_Apel"
+            android:id="@+id/button2"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Apel"/>
+
+        <Button
+            android:onClick="Sound_Ceri"
+            android:id="@+id/button3"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Ceri"/>
+
+        <Button
+            android:onClick="Sound_Durian"
+            android:id="@+id/button4"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Durian"/>
+
+        <Button
+            android:onClick="Sound_JambuAir"
+            android:id="@+id/button5"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Jambu Air"/>
+
+        <Button
+            android:onClick="Sound_Manggis"
+            android:id="@+id/button6"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Manggis"/>
+
+        <Button
+            android:onClick="Sound_Stroberi"
+            android:id="@+id/button7"
+            android:layout_height="180dp"
+            android:layout_width="180dp"
+            android:backgroundTint="@color/teal_200"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:text="Stroberi"/>
+
+    </GridLayout>
+
+</ScrollView>
